@@ -1,0 +1,138 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/spec/>
+@prefix :      <https://www.dropbox.com/home/WebReasoning/voc.ttl#> .
+
+
+
+:says rdf:type rdfs:Property .
+
+:ZIP rdf:type rdfs:Property .
+
+:state rdf:type rdfs:Property .
+
+:town rdf:type rdfs:Property .
+
+:street rdf:type rdfs:Property .
+
+:civicnumber rdf:type rdfs:Property .
+
+:playedIn rdf:type rdfs:Property .
+
+:hasChild rdf:type rdfs:Property .
+
+:definedBy rdf:type rdfs:Property .
+
+:called rdf:type rdfs:Property .
+
+:Documento rdf:type foaf:Document .
+
+:approvato rdf:type rdfs:Property .
+
+:Commissione rdf:type foaf:Organization .
+
+:haStruttura rdf:type rdfs:Property .
+
+:Fred rdf:type foaf:Person .
+
+:Wilma rdf:type foaf:Person .
+
+:Dino rdf:type foaf:Person .
+
+:Paul rdf:type foaf:Person .
+
+:doc1 rdf:type foaf:Document .
+
+:doc2 rdf:type foaf:Document .
+
+:doc3 rdf:type foaf:Document .
+
+:publication rdf:type rdfs:Property .
+
+:wrote rdf:type rdfs:Property .
+
+:Sergei_Rachmaninoff rdf:type foaf:Person .
+
+:hasSon rdf:type rdfs:Property .
+
+:hasFather rdf:type rdfs:Property .
+
+:hasMother rdf:type rdfs:Property .
+
+:hasParent rdf:type rdfs:Property .
+
+:Man rdf:type rdfs:Class . 
+
+:Woman rdf:type rdfs:Class . 
+
+:TheFirm rdf:type rdfs:Class . 
+
+:founder rdf:type rdfs:Property .
+
+:longTermContract rdf:type rdfs:Property .
+
+:indirectlyContractsTo rdf:type rdfs:Property .
+
+:freelancesTo rdf:type rdfs:Property .
+
+:employee rdf:type rdfs:Property .
+
+:contractsTo rdf:type rdfs:Property .
+
+:worksFor rdf:type rdfs:Property .
+
+:marriedWoman rdf:type rdfs:Class . 
+
+:Woman rdf:type rdfs:Class .
+ 
+:hasMaidenName rdf:type rdfs:Property .
+
+:Kildare rdf:type wr:Surgeon .
+
+:Surgeon rdf:type rdfs:Class .
+
+:Physician rdf:type rdfs:Class .
+
+:Staff rdf:type rdfs:Class .
+
+:Marcus rdf:type rdfs:Resource .
+
+:Room101 rdf:type rdfs:Resource . 
+
+:lodgedIn rdf:type rdfs:Property .
+
+:assignedTo rdf:type rdfs:Property . 
+
+:billedFor rdf:type rdfs:Property . 
+
+:Member rdf:type rdfs:Class .
+
+:MVP rdf:type rdfs:Class .
+
+:AllStarCandidate rdf:type rdfs:Class .
+
+:TopScorer rdf:type rdfs:Class .
+
+:Kaneda rdf:type rdfs:Resource .
+
+:Reilly rdf:type rdfs:Resource .
+
+:Person1, :Person2, :Person3, wr.Movie1, wr.Movie2, wr.Movie3 rdf:type rdfs:Resource . 
+
+:personName, movieTitle rdf:type rdfs:Property . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
